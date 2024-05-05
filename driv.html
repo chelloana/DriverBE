@@ -7,38 +7,65 @@
     <title>Driver Page</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f7f7;
             margin: 0;
             padding: 0;
         }
 
         .container {
             max-width: 800px;
-            margin: 20px auto;
+            margin: 50px auto;
             padding: 20px;
             background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            position: relative;
         }
 
         h1 {
             text-align: center;
             color: #333;
+            margin-bottom: 20px;
         }
 
         p {
+            color: #555;
+            line-height: 1.6;
             margin-bottom: 20px;
-            color: #666;
         }
 
         .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #28a745;
+            display: block;
+            width: 200px;
+            margin: 0 auto;
+            padding: 15px 20px;
+            background-color: #00b894;
             color: #fff;
+            text-align: center;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #00916b;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #888;
+            position: absolute;
+            bottom: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        footer span {
+            font-weight: bold;
+            color: #555;
         }
     </style>
 </head>
@@ -47,9 +74,10 @@
     <center>
         <div class="container">
             <h1>Hello, Driver!</h1>
-            <p>Welcome to our platform. We appreciate your dedication and hard work.</p>
+            <p>Welcome to our platform. Your hard work keeps our service running smoothly.</p>
             <a href="#" class="button">View Orders</a>
         </div>
+        <footer>Designed by <span>123210139-Faustina Chelloana Triatmojo</span></footer>
 </body>
 
 </html>
